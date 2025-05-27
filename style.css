@@ -47,11 +47,14 @@ img {
 /* Web responsive */
 /* Tablet & under */
 @media (max-width: 768px) {
-  .carousel-item {
+  .image {
     /* 25rem = 400px */
     height: 25rem;
   }
 
+  img {
+    height: 100%;
+  }
   p,
   h1,
   a {
@@ -61,13 +64,14 @@ img {
 
 /* Mobile */
 @media (max-width: 500px) {
-  .carousel-item {
+  .image {
     /* 21.875rem = 350px */
     height: 21.875rem;
   }
 
   img {
     overflow-clip-margin: unset;
+    height: 100%;
   }
 
   p,
