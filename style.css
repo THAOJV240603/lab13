@@ -1,0 +1,66 @@
+/* .bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(/images/swit_1.jpg);
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(/images/swit_2.jpg);
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(/images/swit_3.jpg);
+} */
+
+/* Normal */
+/* .carousel {
+  width: 100%;
+} */
+
+/* .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+} */
+
+img {
+  width: 100%;
+  /* 32rem = 512px */
+  height: 32rem;
+}
+
+/* Web responsive */
+/* Tablet & under */
+@media (max-width: 768px) {
+  img {
+    /* 25rem = 400px */
+    height: 25rem;
+  }
+
+  p,
+  h1,
+  a {
+    scale: 0.9;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  img {
+    /* 21.875rem = 350px */
+    height: 21.875rem;
+  }
+
+  p,
+  h1,
+  a {
+    /* font-size: 0.8125rem; */
+    scale: 0.8;
+  }
+}
