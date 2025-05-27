@@ -35,13 +35,6 @@
   /* 32rem = 512px */
   height: 32rem;
   width: 100%;
-  
-}
-
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 
 /* Web responsive */
@@ -52,9 +45,6 @@ img {
     height: 25rem;
   }
 
-  img {
-    height: 100%;
-  }
   p,
   h1,
   a {
@@ -67,11 +57,6 @@ img {
   .image {
     /* 21.875rem = 350px */
     height: 21.875rem;
-  }
-
-  img {
-    overflow-clip-margin: unset;
-    height: 100%;
   }
 
   p,
