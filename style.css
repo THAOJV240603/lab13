@@ -34,11 +34,8 @@
 .image {
   /* 32rem = 512px */
   height: 32rem;
-}
-
-.image {
   width: 100%;
-  height: auto;
+  
 }
 
 img {
