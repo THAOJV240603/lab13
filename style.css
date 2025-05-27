@@ -50,6 +50,7 @@ img {
   }
   
 img {
+  overflow-clip-margin: unset;
   height: 100%;
 }
 
