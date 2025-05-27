@@ -37,6 +37,10 @@
   width: 100%;
 }
 
+img {
+  object-fit: cover;
+}
+
 /* Web responsive */
 /* Tablet & under */
 @media (max-width: 768px) {
@@ -44,6 +48,10 @@
     /* 25rem = 400px */
     height: 25rem;
   }
+  
+img {
+  height: 100%;
+}
 
   p,
   h1,
