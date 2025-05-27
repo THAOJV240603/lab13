@@ -38,6 +38,8 @@
 }
 
 img {
+  width: 100%; 
+  height: auto;
   object-fit: cover;
 }
 
@@ -49,9 +51,9 @@ img {
     height: 25rem;
   }
   
-img {
-  overflow-clip-margin: unset;
-  height: 100%;
+  img {
+    overflow-clip-margin: unset;
+    height: 100%;
 }
 
   p,
@@ -69,8 +71,8 @@ img {
   }
 
   img {
-  overflow-clip-margin: unset;
-  height: 100%;
+    overflow-clip-margin: unset;
+    height: 100%;
 }
 
   p,
