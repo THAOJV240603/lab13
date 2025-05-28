@@ -56,8 +56,8 @@
 .footer {
   /* Để footer luôn luôn nằm cuối trang */
   /* position: absolute; */
-  position: sticky;
-  /* position: fixed; */
+  /* position: sticky; */
+  position: fixed;
   /* display: block; */
   bottom: 0;
 }
