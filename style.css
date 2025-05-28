@@ -35,15 +35,15 @@
 } */
 
 .bg-img1 {
-  background-image: url("./images/galaxy_1.webp");
+  background-image: url("/images/galaxy_1.webp");
 }
 
 .bg-img2 {
-  background-image: url("./images/galaxy_2.webp");
+  background-image: url("/images/galaxy_2.webp");
 }
 
 .bg-img3 {
-  background-image: url("./images/galaxy_3.webp");
+  background-image: url("/images/galaxy_3.webp");
 }
 
 .bg-img1,
