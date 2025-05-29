@@ -53,6 +53,9 @@
   background-position: center;
 }
 
+/* Bug:
+     Khi màn hình co lại, phần Footer sẽ đè nên nội dung của phần Content (Carousel) 
+     Fix: sử dụng position: fixed; */
 footer {
   /* Để footer luôn luôn nằm cuối trang */
   /* position: absolute; */
